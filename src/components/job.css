@@ -1,0 +1,65 @@
+/* YourComponent.css */
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Center vertically on the page */
+  background-color: #f0f0f0; /* Background color of the outer container */
+}
+
+
+.box {
+  background-color: #725555; /* Background color of the box */
+  width: 500px; /* Set your specific width */
+  height: 500px; /* Set your specific height */
+  padding: 20px; /* Add padding for better appearance */
+  border: 1px solid #4a0909; /* Add border if needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow if needed */
+}
+.row {
+
+  display: flex; /* Use flexbox layout for row */
+  align-items: center; /* Vertically center the items in the row */
+  margin-bottom: 10px; /* Add margin between rows */
+}
+
+.label-container {
+  flex: 1; /* Distribute available space equally between label and input */
+}
+
+.input-container {
+  flex: 2; /* Distribute available space equally between label and input */
+} 
+
+.label {
+  width: 100%;
+  margin-right: 20px;
+  color: #f6e3e3;
+}
+
+.input {
+  width: 100%; /* Set a constant width for input fields */
+  padding: 5px;
+}
+
+.highlight-button {
+  background-color: #dcc273; /* Change the background color to a highlight color */
+  color: #fff; /* Change the text color to white for better contrast */
+  border: none; /* Remove the border */
+  padding: 10px 20px; /* Add some padding to the button */
+  font-size: 16px; /* Increase the font size */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Hover effect */
+.highlight-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.redMessage {
+  padding: 20px ;
+  color: #4c1111; /* Set the text color to red */
+  font-weight: bold; /* Make the text bold for emphasis (optional) */
+  /* Add any other styles you want for error messages */
+}
